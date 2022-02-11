@@ -464,9 +464,11 @@
         
         <div class="col-lg-3 col-lg-offset-3 centered">
           <canvas id="html" height="130" width="130"></canvas>
-          base_image = new Image();
-          base_image.src = 'img/base.png';
-          base_image.onload = () => ctx.drawImage(base_image, 0, 0);
+          <script>
+            base_image = new Image();
+            base_image.src = 'img/base.png';
+            base_image.onload = () => ctx.drawImage(base_image, 0, 0);
+          </script>
           <p>Project Management</p>
           <br>
         </div>
@@ -494,8 +496,7 @@
           <img src="img/portfolio/4.jpg" style="width:100%">
           <img src="img/portfolio/7.jpg" style="width:100%">
           <img src="img/portfolio/8.jpg" style="width:100%">
-          <br><a href="https://www.instagram.com/shuvoprime/?hl=en">
-          <ul><h3><b><t>Find out more on Instagram</b></h3></t> </ul></a>
+          <br><a href="https://www.instagram.com/shuvoprime/?hl=en"> <ul><h3><b><t>Find out more on Instagram</b></h3></t> </ul></a>
           </div>
       <!--/.row -->
       <br>
@@ -536,11 +537,13 @@
   </section>
       
   <div id="footwrap">
-    <div class="col-lg-7">
+    <div class="container">
+      <div class="row">
         <div id="copyrights">
             <p>
               &copy; Copyrights <strong>SHUVO</strong>. All Rights Reserved
             </p>
+      </div>
       </div>
     </div>
       </div>
