@@ -388,3 +388,34 @@ sm {
   font-weight: 600;
   margin: 15px 0;
 }
+
+
+
+
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.pt {width: 90%; background-color: #424057;} /* Green */
+.python {width: 80%; background-color: #58a39c;} /* Blue */
+.linux {width: 65%; background-color: #01888a;} /* Red */
+.rbt {width: 60%; background-color: #b43838;}/* Dark Grey */
+.SQL {width: 60%; background-color: #b43838;}
+.PM {width: 60%; background-color: #b43838;}
+.atm {width: 60%; background-color: #b43838;}
+.ptm {width: 60%; background-color: #b43838;}
+.rm {width: 60%; background-color: #b43838;}
+
